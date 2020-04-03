@@ -2,17 +2,20 @@
 
 Written by `sadanalog`
 
----
 ## Outline
 
 This is the design of the whole process. In order to work on analysis data, the plan and draft throw us an idea of how the process can be done. Moreover, it makes us verify the necessary step in the system.
 
 For the system pipeline, it is consist of files following:
+
+- `2dataframe`
 - `exploration.ipynb`
 - `preprocessing.ipynb`
 - `model.ipynb`
 
----
+## Converting dataset to DF type
+
+This file used for converting the text file dataset into the DataFrame. Using the function `load_data` and `convert2df`.
 
 ## Virtualization
 
@@ -36,8 +39,6 @@ This is a step of exploration data, to figure out the insight and understanding 
 - `plot_line`
     - This one is optional, what happens if we consider the data as the time-domain signal processing. in this state, I would like to if apply the Fourier Transform
 
----
-
 ## Data Cleansing
 
 This one to ensure the data is in the state of read-to-train. For its procedure, it is a list of:
@@ -50,7 +51,6 @@ This one to ensure the data is in the state of read-to-train. For its procedure,
 
 - **Scaling down.** After peeking the dataset, I see some values are not the same scale. scaling down the value will make some machine learning models are easy to cut-off (in contrast Decision tree Model doesn't improve-performance affect the scaling).
 
----
 
 ## Train ML Models and Evaluation
 
