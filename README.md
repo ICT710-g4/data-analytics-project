@@ -17,7 +17,7 @@ The Data analytics task is used to analyze the collected data from Edge-device s
 - [Data Preprocessing](#data-preprocessing)
 - [Model Selection](#model-selection)
 - [Fine-tune Model](#fine-tune-model)
-- [See also](#see-also)
+- [See Also](#see-also)
 
 [Back to TOC](#table-of-contents)
 
@@ -101,9 +101,11 @@ This one to ensure the data is in the state of read-to-train. For its procedure,
 
 In this stage, I will start to train the machine learning model using cross-validation (k-fold) to measure the f1-score and average conditional probability in evaluation. For selecting the model it depends on the behavior of dataset and values. The selected model will be dump into the server-side for use in the prediction of the incoming data.
 
+[Back to TOC](#table-of-contents)
+
 ## Data Exploration
 
-Check the [notebook]()
+Check the [notebook](https://github.com/ICT710-g4/data-analytics-project/blob/master/exploration.ipynb)
 
 During the exploration, the insight data that we discover are:
 
@@ -125,7 +127,7 @@ During the exploration, the insight data that we discover are:
 
 ## Data Preprocessing
 
-Check the [notebook]()
+Check the [notebook](https://github.com/ICT710-g4/data-analytics-project/blob/master/preprocessing.ipynb)
 
 For data processing, the things that we have done are
 
@@ -140,7 +142,7 @@ For scaling down, it is no needed since every feature is on the same scale, from
 
 ## Model Selection
 
-Check the [notebook]()
+Check the [notebook](https://github.com/ICT710-g4/data-analytics-project/blob/master/model.ipynb)
 
 Now, we train ML models from the dataset and measure every model using F1. We found the most of them perform very well in cleaned data (f-score = 1). So, we point out the messy data which have f-score lower. In this, the stage we decide to use Gradient Boosting Classifier.
 
@@ -149,12 +151,11 @@ Now, we train ML models from the dataset and measure every model using F1. We fo
 Since, in my opinion, Gradient Boosting Classifier is noise-tolerant more than other machine learning algorithms. Gradient boosting is a machine learning technique for regression and classification problems, which produces a prediction model in the form of an ensemble of weak prediction models, typically decision trees.
 
 
-
 [Back to TOC](#table-of-contents)
 
 ## Fine-tune Model
 
-Check the [notebook]()
+Check the [notebook](https://github.com/ICT710-g4/data-analytics-project/blob/master/model.ipynb)
 
 In this process, we need to find the best values for Gradient Boosting Classifier parameters. The parameters that we can fine-tune the following:
 - learning_rate
