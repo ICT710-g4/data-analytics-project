@@ -4,7 +4,7 @@ This project is one of the parts in the Motion detection project in **ICT710: so
 
 ## Introduction
 
-The Data analytics task is used to analyze the collected data from Edge-device sensors that include on Gyroscope and accelerometer sensors, for predicting that device is moving whether or not. Based on pattern recognition, the project is considered as a classification problem, to classify the incoming data according to labeled data.
+Data Analytics task is used to analyze the collected data from Edge-device sensors that include on Gyroscope and accelerometer sensors, for predicting that device is moving whether or not. Based on pattern recognition, the project is considered as a classification problem, to classify the incoming data according to labeled data.
 
 [Back to TOC](#table-of-contents)
 
@@ -37,7 +37,7 @@ A gyroscope is a device that uses Earth's gravity to help determine orientation.
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/i2U49usFo10/0.jpg)](https://youtu.be/i2U49usFo10)
 
-Sensor Data: acc_x, acc_y, acc_z
+Sensor data: acc_x, acc_y, acc_z
 
 An accelerometer is a compact device designed to measure non-gravitational acceleration. When the object it's integrated into goes from a standstill to any velocity, the accelerometer is designed to respond to the vibrations associated with such movement. It uses microscopic crystals that go under stress when vibrations occur, and from that stress, a voltage is generated to create reading on any acceleration. Accelerometers are important components to devices that track fitness and other measurements in the quantified self-movement.
 
@@ -176,5 +176,5 @@ In this process, we need to find the best values for Gradient Boosting Classifie
 
 [Back to TOC](#table-of-contents)
 
-
+---
 
