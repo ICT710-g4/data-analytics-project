@@ -1,6 +1,6 @@
 # Data Analytics Project
 
-This project is one of the parts in the Motion detection project in **ICT710: software Design for Embedded Systems**, which is a responsibility by **Isada Sukprapa (sadanalog)**.
+This project is one of the parts in the Motion detection project in **ICT710: Software Design for Embedded Systems**, which is a responsibility by **Isada Sukprapa (sadanalog)**.
 
 ## Introduction
 
